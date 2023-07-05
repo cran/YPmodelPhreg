@@ -1,0 +1,8 @@
+exportPattern("^[[:alpha:]]+")
+S3method(ypreg, default)
+S3method(print, ypreg)
+S3method(plot, ypreg)
+importFrom("graphics", "abline", "axis", "legend", "lines", "polygon")
+importFrom("stats", "rnorm", "pnorm", "qnorm", "runif", "sd")
+importFrom("survival", "coxph", "Surv")
+importFrom("grDevices", "rgb")

@@ -1,0 +1,1 @@
+ypreg <- function(...) UseMethod("ypreg")
